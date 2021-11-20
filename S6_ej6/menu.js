@@ -3,11 +3,6 @@
  */
 function menu() {
     /**
-     * Guarda la selección del usuario.
-     * @type {*}
-     */
-    var comando
-    /**
      * Guarda los objetos-perfil.
      * @type {Array}
      */
@@ -48,15 +43,20 @@ function menu() {
      */
     var nombre_perfil
     /**
-     * Almacena el subcomando de los submenús.
-     * @type {number}
-     */
-    var subcomando
-    /**
      * Almacena el perfil modificado.
      * @type {object}
      */
     var perfil_modificado
+    /**
+     * Guarda la selección del usuario.
+     * @type {*}
+     */
+    var comando
+    /**
+     * Almacena el subcomando de los submenús.
+     * @type {number}
+     */
+    var subcomando
     /**
      * Variable booleana que comprueba si se ha encontrado el nombre de usuario.
      * @type {boolean}
